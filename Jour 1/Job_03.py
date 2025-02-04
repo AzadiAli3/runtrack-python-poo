@@ -4,8 +4,8 @@ class Operation:
         self.nombre2 = nombre2
 
     def addition(self):
-        resultat = self.nombre1 = self.nombre2
-        print("Le resultat de l'addition est {resultat}")
+        resultat = self.nombre1 + self.nombre2
+        print(f"Résultat de l'addition: {resultat}")
 
 operation1 = Operation()
 print(operation1)
